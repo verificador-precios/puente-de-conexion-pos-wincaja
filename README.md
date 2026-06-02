@@ -27,7 +27,7 @@ La aplicación es compatible con los siguientes sistemas operativos:
 
 Para esta versión de la aplicación, se recomienda usar como mínimo:
 
-| Plataforma | Requisito mínimo |
+| Plataforma | Recomendado |
 | --- | --- |
 | Windows | Windows 10 |
 | macOS | macOS 12 Monterey |
