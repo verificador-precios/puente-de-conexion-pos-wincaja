@@ -1,5 +1,10 @@
 # Wincaja puente de conexión POS
 
+<p align="center">
+  <img src="./images/arquitectura-instalacion-red-lan.png" width="500" alt="Ejemplo de una red LAN con un punto de venta Wincaja y varios Verificadores de Precios conectados">
+</p>
+
+
 ## Introducción
 
 `Wincaja puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `Wincaja®`.
@@ -372,6 +377,10 @@ Se recomienda usar esta opción cuando:
 ## Emparejar con el software Verificador de Precios usando el Asistente
 
 Una vez que la aplicación esté abierta y conectada, podrá generar la liga de acceso para el Verificador de Precios.
+
+<p align="center">
+  <img src="./images/emparejar-asistente-red-lan.png" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
+</p>
 
 ### Paso 1: Verificar la URL para conexión del servidor
 
