@@ -13,7 +13,7 @@
   <img src="./images/client-dashboard.png" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
 </p>
 
-## Compatibilidad
+## Compatibilidad con sistemas operativos
 
 La aplicación es compatible con los siguientes sistemas operativos:
 
@@ -23,7 +23,7 @@ La aplicación es compatible con los siguientes sistemas operativos:
 | macOS | ✅ |
 | Linux | ✅ |
 
-### Requisitos mínimos del sistema
+### Requisitos mínimos del sistema operativo
 
 Para esta versión de la aplicación, se recomienda usar como mínimo:
 
@@ -37,6 +37,10 @@ Para esta versión de la aplicación, se recomienda usar como mínimo:
 
 - `Windows 7`, `Windows 8` y `Windows 8.1` no son compatibles con esta versión.
 - En Linux, se recomienda usar una distribución actualizada y con soporte vigente. -->
+
+## Comatibilidad con punto de venta `Wincaja®`
+
+- `Wincaja®` versión 10
 
 ## Descarga segura
 
