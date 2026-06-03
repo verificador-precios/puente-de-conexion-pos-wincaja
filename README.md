@@ -414,12 +414,6 @@ Ejemplos válidos:
 - `http://192.168.1.50:8080/`
 - `http://localhost:4200/`
 
-Ejemplos no válidos:
-
-- `verificador-precios-app.com`
-- `https://verificador-precios-app.com/login`
-- `https://verificador-precios-app.com/?token=123`
-
 Reglas importantes:
 
 - Debe iniciar con `http://` o `https://`.
