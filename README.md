@@ -412,9 +412,7 @@ En el campo `URL del Verificador de Precios`, capture únicamente la dirección 
 
 Ejemplos válidos:
 
-- `https://verificador-precios-app.com/`
-- `http://192.168.1.50:8080/`
-- `http://localhost:4200/`
+- `https://wincaja.verificador-precios-prueba.com.mx/`
 
 Reglas importantes:
 
