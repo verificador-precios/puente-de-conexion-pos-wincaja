@@ -64,6 +64,8 @@ Para que la aplicación funcione correctamente, es necesario aceptar el permiso 
 3. Siga los pasos del asistente de instalación.
 4. Al finalizar, abra `Wincaja puente de conexión POS`.
 
+Nota: Para instalar la aplicación en Windows, **no se requieren permisos de administrador**.
+
 <p align="center">
   <img src="./images/windows-11-installer-initial.png" width="450" alt="Ejemplo del instalador en Windows">
 </p>
