@@ -10,7 +10,7 @@
 `Wincaja puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `Wincaja®`.
 
 <p align="center">
-  <img src="./images/client-dashboard.png" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156526/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home.png" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
 </p>
 
 ## Compatibilidad con sistemas operativos
@@ -370,7 +370,7 @@ Se recomienda usar esta opción cuando:
 - El área técnica le proporcionó host y puerto.
 
 <p align="center">
-  <img src="./images/client-host-puerto-formulario.png" width="520" alt="Ejemplo del formulario de conexión por host y puerto">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156523/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-db-config-form.png" width="520" alt="Ejemplo del formulario de conexión por host y puerto">
 </p>
 
 ### Recomendaciones
@@ -393,7 +393,7 @@ Una vez que la aplicación esté abierta y conectada, podrá generar la liga de 
 Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
 
 <p align="center">
-  <img src="./images/client-url-para-conexion-del-servidor.png" width="520" alt="Ejemplo de la URL para conexión del servidor mostrada en la aplicación">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156524/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-server-connection-url.png" width="520" alt="Ejemplo de la URL para conexión del servidor mostrada en la aplicación">
 </p>
 
 ### Paso 2: Abrir el Asistente de URL de acceso
@@ -403,24 +403,16 @@ Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
 3. Se abrirá una ventana para capturar la `URL del Verificador de Precios`.
 
 <p align="center">
-  <img src="./images/client-asistente-emparejamiento-frontend.png" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156527/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-url-assistant-content.png" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
 </p>
 
 ### Paso 3: Capturar correctamente la URL del Verificador de Precios
 
 En el campo `URL del Verificador de Precios`, capture únicamente la dirección base del sistema web.
 
-Ejemplos válidos:
+Ejemplo:
 
 - `https://wincaja.verificador-precios-prueba.com.mx/`
-
-Reglas importantes:
-
-- Debe iniciar con `http://` o `https://`.
-- Debe incluir un host válido.
-- No debe incluir parámetros.
-- No debe incluir fragmentos.
-- No debe incluir rutas adicionales.
 
 ### Paso 4: Guardar y usar la liga de acceso
 
@@ -432,8 +424,20 @@ Reglas importantes:
 6. Mediante la URL generada ya podrá acceder al **software Verificador de Precios emparejado a su punto de venta**.
 
 <p align="center">
-  <img src="./images/client-asistente-de-acceso-botones.png" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156523/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-access-assistant.png" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
+
+### Paso 5: Permitir el acceso a la red local en el navegador
+Para una mejor compatibilidad, se recomienda usar el sitio web de `Verificador de Precios` en [Google Chrome](https://www.google.com/intl/es-419/chrome/).
+
+Si abre el sitio web de `Verificador de Precios` en `Google Chrome`, es posible que el navegador solicite permiso para acceder a la `red local`. Acepte este permiso para que el sitio web pueda comunicarse correctamente con la `URL para conexión del servidor`.
+
+<p align="center">
+  <img src="./images/chrome-local-network-access-permission.png" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
+</p>
+
+Referencia:
+[Private Network Access update: Introducing permission prompts](https://developer.chrome.com/blog/local-network-access?hl=es-419)
 
 ## Emparejar con el software Verificador de Precios usando el QR
 
@@ -457,7 +461,7 @@ También puede emparejar Verificador de Precios usando el `QR de conexión` que 
 3. Elija una de las opciones disponibles para leer el QR.
 
 <p align="center">
-  <img src="./images/verificador-precios-conexion-rapida-qr.png" width="720" alt="Opciones de conexión rápida por QR en Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780456920/assets/proyecto-verificador-precios/screenshots/direct-pos-database/wincaja-verificador-precios-prueba-com-mx-config-data-source-bea35349ff.jpg" width="720" alt="Opciones de conexión rápida por QR en Verificador de Precios">
 </p>
 
 ### Paso 4: Emparejar usando el QR
@@ -478,8 +482,10 @@ Puede usar cualquiera de estas opciones:
 3. Si el QR se importó o se escaneó correctamente, la conexión se establecerá de manera automática.
 4. Espere la confirmación de emparejamiento.
 
+Si el sitio web no completa la conexión en `Google Chrome`, revise si el navegador mostró el permiso de acceso a la `red local` y acéptelo. Consulte también el [Paso 5: Permitir el acceso a la red local en Google Chrome](#paso-5-permitir-el-acceso-a-la-red-local-en-google-chrome).
+
 <p align="center">
-  <img src="./images/verificador-precios-confirmar-conexion.png" width="720" alt="Ejemplo de Verificador de Precios con la conexión establecida correctamente">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780456920/assets/proyecto-verificador-precios/screenshots/direct-pos-database/wincaja-verificador-precios-prueba-com-mx-config-data-source-19cf1e38e5.jpg" width="720" alt="Ejemplo de Verificador de Precios con la conexión establecida correctamente">
 </p>
 
 ### Recomendaciones
@@ -560,3 +566,7 @@ La aplicación es compatible con las siguientes versiones de Microsoft SQL Serve
 <!-- | SQL Server 2014 (12.x) | No soportado |
 | SQL Server 2012 (11.x) | No soportado |
 | SQL Server 2008 R2 o anteriores | No soportado | -->
+
+## Disclamer
+
+- Wincaja® y todos sus logotipos son marcas registradas de wincaja.mx
