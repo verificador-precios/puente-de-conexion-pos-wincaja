@@ -617,4 +617,4 @@ La aplicación es compatible con las siguientes versiones de Microsoft SQL Serve
 
 ## Disclamer
 
-- Wincaja® y todos sus logotipos son marcas registradas de wincaja.mx
+- Wincaja® y todos sus logotipos son marcas registradas de **wincaja.mx**
