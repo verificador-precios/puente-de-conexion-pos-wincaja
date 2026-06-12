@@ -13,6 +13,24 @@
   <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156526/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home.png" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
 </p>
 
+## Guía rápida de configuración
+
+Si solo necesita una vista rápida del proceso, siga estos pasos:
+
+1. Instale `Wincaja puente de conexión POS` y permita las `conexiones entrantes` cuando el sistema operativo lo solicite.
+2. Abra la aplicación y capture los datos de conexión a la base de datos de `Wincaja®`.
+3. Compruebe que la aplicación logre conectarse correctamente a la base de datos.
+4. Verifique que la aplicación ya muestre la `URL para conexión del servidor`.
+5. Abra el [Asistente de URL de acceso](#paso-2-abrir-el-asistente-de-url-de-acceso) o use el [QR de conexión](#emparejar-con-el-software-verificador-de-precios-usando-el-qr) para [emparejar Verificador de Precios](#emparejar-con-el-software-verificador-de-precios-usando-el-asistente).
+6. [Acepte el permiso de acceso a la red local](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
+7. Confirme que `Verificador de Precios` complete la conexión correctamente.
+
+Puede consultar el detalle completo en estas secciones:
+
+- [Instalación](#instalación)
+- [Configuración de la base de datos](#configuración-de-la-base-de-datos)
+- [Emparejar con el software Verificador de Precios usando el Asistente](#emparejar-con-el-software-verificador-de-precios-usando-el-asistente)
+
 ## Compatibilidad con sistemas operativos
 
 La aplicación es compatible con los siguientes sistemas operativos:
@@ -223,6 +241,32 @@ En Linux, algunas distribuciones pueden solicitar autorización en el firewall o
 Si su distribución muestra una alerta del firewall, permita el acceso para `Wincaja puente de conexión POS`.
 
 Si la regla debe agregarse manualmente, solicite apoyo al área técnica para permitir las conexiones entrantes de la aplicación dentro del firewall de su distribución.
+
+## Actualización de la aplicación
+
+<p align="center">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781224554/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-update-install-content.png" width="420" alt="Ejemplo del aviso de actualización lista en Wincaja puente de conexión POS">
+</p>
+
+### Actualización automática
+
+La búsqueda de actualizaciones se ejecuta automáticamente en las versiones empaquetadas e instaladas desde los canales oficiales de publicación.
+
+Flujo esperado:
+
+1. Abra la aplicación.
+2. Aproximadamente `15 segundos` después de abrirla, la aplicación buscará una versión nueva en segundo plano.
+3. Si existe una actualización disponible, la aplicación comenzará la descarga automáticamente.
+4. Cuando la descarga finalice, la aplicación mostrará un aviso indicando que la nueva versión quedó lista para instalarse.
+5. Al cerrar la aplicación, se iniciará la instalación de la actualización descargada.
+
+Si aparece el diálogo `Actualización lista`, puede usar `Actualizar ahora` para cerrar la aplicación e iniciar el proceso de actualización en ese momento.
+
+### Plataformas activas con la actualización automática
+
+Actualmente, la actualización automática está activa solo en `Windows`.
+
+En `macOS` y `Linux`, cuando sea necesario actualizar, descargue e instale manualmente la versión más reciente publicada para su plataforma.
 
 ## Primer uso
 
