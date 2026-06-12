@@ -286,6 +286,10 @@ La aplicación permite configurar:
 
 ## Configuración de la aplicación
 
+<p align="center">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781157091/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-app-config.png" width="720" alt="Ejemplo de la pantalla de configuración de la aplicación en Wincaja puente de conexión POS">
+</p>
+
 ### Cómo abrir la configuración
 
 1. Abra `Wincaja puente de conexión POS`.
