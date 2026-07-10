@@ -1,7 +1,7 @@
 # Wincaja puente de conexión POS
 
 <p align="center">
-  <img src="./images/arquitectura-instalacion-red-lan.png" width="500" alt="Ejemplo de una red LAN con un punto de venta Wincaja y varios Verificadores de Precios conectados">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783542709/assets/proyecto-verificador-precios/bridge-libp2p/images/arquitectura-instalacion-red-lan.png?v=2" width="500" alt="Ejemplo de una red LAN con un punto de venta Wincaja y varios Verificadores de Precios conectados">
 </p>
 
 
@@ -10,7 +10,7 @@
 `Wincaja puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `Wincaja®`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156526/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home.png" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156526/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home.png?v=2" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
 </p>
 
 ## Guía rápida de configuración
@@ -18,12 +18,13 @@
 Si solo necesita una vista rápida del proceso, siga estos pasos:
 
 1. Instale `Wincaja puente de conexión POS` y permita las `conexiones entrantes` cuando el sistema operativo lo solicite.
-2. Abra la aplicación y capture los datos de conexión a la base de datos de `Wincaja®`.
-3. Compruebe que la aplicación logre conectarse correctamente a la base de datos.
-4. Verifique que la aplicación ya muestre la `URL para conexión del servidor`.
-5. Abra el [Asistente de URL de acceso](#paso-2-abrir-el-asistente-de-url-de-acceso) o use el [QR de conexión](#emparejar-con-el-software-verificador-de-precios-usando-el-qr) para [emparejar Verificador de Precios](#emparejar-con-el-software-verificador-de-precios-usando-el-asistente).
-6. [Acepte el permiso de acceso a la red local](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
-7. Confirme que `Verificador de Precios` complete la conexión correctamente.
+2. Abra la aplicación y revise la [configuración de la base de datos](#configuración-de-la-base-de-datos).
+3. La aplicación intentará cargar automáticamente los valores de conexión desde el archivo `Wincaja.ini`.
+4. Compruebe que la aplicación logre conectarse correctamente a la base de datos.
+5. Verifique que la aplicación ya muestre la `URL para conexión del servidor`.
+6. Abra el [Asistente de URL de acceso](#paso-2-abrir-el-asistente-de-url-de-acceso) o use el [QR de conexión](#emparejar-con-el-software-verificador-de-precios-usando-el-qr) para [emparejar Verificador de Precios](#emparejar-con-el-software-verificador-de-precios-usando-el-asistente).
+7. [Acepte el permiso de acceso a la red local](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
+8. Confirme que `Verificador de Precios` complete la conexión correctamente.
 
 Puede consultar el detalle completo en estas secciones:
 
@@ -56,15 +57,15 @@ Para esta versión de la aplicación, se recomienda usar como mínimo:
 - `Windows 7`, `Windows 8` y `Windows 8.1` no son compatibles con esta versión.
 - En Linux, se recomienda usar una distribución actualizada y con soporte vigente. -->
 
-## Comatibilidad con punto de venta `Wincaja®`
+## Compatibilidad con punto de venta `Wincaja®`
 
-- `Wincaja®` versión 10
+- `Wincaja® v10`
 
 ## Descarga segura
 
 Antes de instalar la aplicación, tenga en cuenta lo siguiente:
 
-- `Wincaja puente de conexión POS` es software legítimo y distribuido de forma oficial a través de [nuestro repositorio de Github](https://github.com/verificador-precios).
+- `Wincaja puente de conexión POS` es software legítimo y distribuido de forma oficial a través de [nuestro repositorio de GitHub](https://github.com/verificador-precios).
 - La aplicación se construye y empaqueta siguiendo prácticas orientadas a la seguridad y a la integridad del software distribuido.
 - Descargue el instalador únicamente desde el sitio oficial o desde el repositorio oficial del proyecto.
 - No instale archivos descargados desde enlaces de terceros, servicios no oficiales o sitios no verificados.
@@ -77,7 +78,7 @@ Para que la aplicación funcione correctamente, es necesario aceptar el permiso 
 
 ### Instalación en Windows
 
-1. Descargue [la ultima version del instalador](https://github.com/verificador-precios/puente-de-conexion-pos-wincaja/releases/latest).
+1. Descargue [la última versión del instalador](https://github.com/verificador-precios/puente-de-conexion-pos-wincaja/releases/latest).
 2. Abra el archivo descargado.
 3. Siga los pasos del asistente de instalación.
 4. Al finalizar, abra `Wincaja puente de conexión POS`.
@@ -85,7 +86,7 @@ Para que la aplicación funcione correctamente, es necesario aceptar el permiso 
 Nota: Para instalar la aplicación en Windows, **no se requieren permisos de administrador**.
 
 <p align="center">
-  <img src="./images/windows-11-installer-initial.png" width="450" alt="Ejemplo del instalador en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=2" width="450" alt="Ejemplo del instalador en Windows">
 </p>
 
 ### Si Windows bloquea el instalador o la aplicación
@@ -102,7 +103,7 @@ En algunos equipos, Windows puede mostrar advertencias de seguridad al abrir el 
 6. Haga clic en `Aceptar`.
 
 <p align="center">
-  <img src="./images/win-11-propiedades-instalador.png" width="420" alt="Ejemplo del desbloqueo del instalador desde Propiedades en Windows 10 y Windows 11">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-propiedades-instalador.png?v=2" width="420" alt="Ejemplo del desbloqueo del instalador desde Propiedades en Windows 10 y Windows 11">
 </p>
 
 #### Método 2: Omitir la advertencia de Windows SmartScreen
@@ -112,7 +113,7 @@ En algunos equipos, Windows puede mostrar advertencias de seguridad al abrir el 
 3. Después, haga clic en `Ejecutar de todas formas`.
 
 <p align="center">
-  <img src="./images/win-10-smartscreen-1.png" width="420" alt="Ejemplo de Windows SmartScreen en Windows 10">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=2" width="420" alt="Ejemplo de Windows SmartScreen en Windows 10">
 </p>
 
 ### Permitir conexiones entrantes en el firewall de Windows
@@ -126,7 +127,7 @@ Si aparece esta ventana:
 3. Si Windows muestra opciones de red, permita el acceso según la política de su entorno.
 
 <p align="center">
-  <img src="./images/win-11-firewall-permiso-2.png" width="420" alt="Solicitud del permiso de firewall para permitir conexiones entrantes en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=2" width="420" alt="Solicitud del permiso de firewall para permitir conexiones entrantes en Windows">
 </p>
 
 Si desea confirmar después que el permiso quedó aplicado correctamente:
@@ -138,7 +139,7 @@ Si desea confirmar después que el permiso quedó aplicado correctamente:
 5. Verifique que la aplicación aparezca como permitida.
 
 <p align="center">
-  <img src="./images/win-11-firewall-permiso-1.png" width="520" alt="Ejemplo de verificación del permiso de firewall en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=2" width="520" alt="Ejemplo de verificación del permiso de firewall en Windows">
 </p>
 
 Si el permiso fue rechazado por error:
@@ -151,12 +152,12 @@ Si el permiso fue rechazado por error:
 6. Guarde los cambios y vuelva a abrir la aplicación.
 
 <p align="center">
-  <img src="./images/win-10-firewall-2.png" width="520" alt="Ejemplo de permiso del firewall en Windows 10">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-firewall-2.png?v=2" width="520" alt="Ejemplo de permiso del firewall en Windows 10">
 </p>
 
 ### Instalación en macOS
 
-1. Descargue [la ultima version del instalador](https://github.com/verificador-precios/puente-de-conexion-pos-wincaja/releases/latest).
+1. Descargue [la última versión del instalador](https://github.com/verificador-precios/puente-de-conexion-pos-wincaja/releases/latest).
 2. Abra el archivo descargado.
 3. Arrastre la aplicación a la carpeta `Aplicaciones`.
 4. Abra la aplicación desde `Aplicaciones`.
@@ -164,7 +165,7 @@ Si el permiso fue rechazado por error:
 El instalador de macOS también incluye un script de desinstalación que permite remover completamente la aplicación del sistema operativo.
 
 <p align="center">
-  <img src="./images/macos-14-installer-dmg.png" width="520" alt="Ejemplo del instalador DMG en macOS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780366463/assets/proyecto-verificador-precios/bridge-libp2p/macos-14/macos-14-installer-dmg.png?v=2" width="520" alt="Ejemplo del instalador DMG en macOS">
 </p>
 
 ### Si macOS bloquea la aplicación
@@ -186,12 +187,12 @@ Referencia oficial de Apple sobre Gatekeeper:
 8. Confirme con su contraseña o con `Touch ID`.
 
 <p align="center">
-  <img src="./images/macos-14-gatekeeper-1.png" width="360" alt="Alerta inicial de Gatekeeper">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033740/assets/proyecto-verificador-precios/bridge-libp2p/macos-14/macos-14-gatekeeper-1.png?v=2" width="360" alt="Alerta inicial de Gatekeeper">
 </p>
 
 
 <p align="center">
-    <img src="./images/macos-14-allow-to-install-unknow-app-config-menu.png" width="520" alt="Ubicación de Abrir de todos modos">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780034488/assets/proyecto-verificador-precios/bridge-libp2p/macos-14/macos-14-allow-to-install-unknow-app-config-menu.png?v=2" width="520" alt="Ubicación de Abrir de todos modos">
 </p>
 
 ### Permitir conexiones entrantes en el firewall de macOS
@@ -204,7 +205,7 @@ Referencia oficial de Apple sobre el firewall de macOS:
 Si aparece una alerta como la mostrada en las capturas, seleccione `Permitir`.
 
 <p align="center">
-  <img src="./images/macos-14-firewall-request-1.png" width="360" alt="Alerta del firewall para la app principal">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780034615/assets/proyecto-verificador-precios/bridge-libp2p/macos-14/macos-14-firewall-request-1.png?v=2" width="360" alt="Alerta del firewall para la app principal">
 </p>
 
 Si desea confirmar que el permiso quedó aplicado correctamente:
@@ -217,7 +218,7 @@ Si desea confirmar que el permiso quedó aplicado correctamente:
 6. Verifique que ambos estén configurados como `Permitir las conexiones entrantes`.
 
 <p align="center">
-    <img src="./images/macos-14-firewall-list.png" width="520" alt="Lista de apps permitidas en el firewall">
+    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780034686/assets/proyecto-verificador-precios/bridge-libp2p/macos-14/macos-14-firewall-list.png?v=2" width="520" alt="Lista de apps permitidas en el firewall">
 </p>
 
 Si el permiso se rechazó por error:
@@ -245,7 +246,7 @@ Si la regla debe agregarse manualmente, solicite apoyo al área técnica para pe
 ## Actualización de la aplicación
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781224554/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-update-install-content.png" width="420" alt="Ejemplo del aviso de actualización lista en Wincaja puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781224554/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-update-install-content.png?v=2" width="420" alt="Ejemplo del aviso de actualización lista en Wincaja puente de conexión POS">
 </p>
 
 ### Actualización automática
@@ -270,7 +271,11 @@ En `macOS` y `Linux`, cuando sea necesario actualizar, descargue e instale manua
 
 ## Primer uso
 
-Al abrir la aplicación por primera vez, deberá capturar los datos de conexión a la base de datos local.
+Al abrir la aplicación por primera vez, se intentará cargar automáticamente los valores de conexión desde el archivo `C:\WinCajaV10\Wincaja.ini`.
+
+Si el archivo `Wincaja.ini` está disponible, la aplicación usará esos datos para completar la configuración de conexión a la base de datos.
+
+Si por alguna razón no es posible obtener los valores desde `Wincaja.ini`, podrá capturarlos manualmente.
 
 La aplicación permite configurar:
 
@@ -287,7 +292,7 @@ La aplicación permite configurar:
 ## Configuración de la aplicación
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781157091/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-app-config.png" width="720" alt="Ejemplo de la pantalla de configuración de la aplicación en Wincaja puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781157091/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-app-config.png?v=2" width="720" alt="Ejemplo de la pantalla de configuración de la aplicación en Wincaja puente de conexión POS">
 </p>
 
 ### Cómo abrir la configuración
@@ -334,6 +339,10 @@ En esta sección puede activar herramientas adicionales de apoyo.
 
 La aplicación está preparada para conectarse a la Base de Datos de `Wincaja®`.
 
+Cuando el archivo `C:\WinCajaV10\Wincaja.ini` está disponible, la aplicación obtiene automáticamente desde ahí los valores de conexión, como la `Instancia`, el `Nombre de la base de datos`, el `Usuario` y la `Contraseña`.
+
+Si necesita ajustar la conexión o si el archivo `Wincaja.ini` no está disponible, puede capturar los datos manualmente.
+
 ### Opción 1: Conexión por Instancia
 
 Use esta opción cuando su servidor SQL Server se conecta por nombre de instancia.
@@ -341,11 +350,12 @@ Use esta opción cuando su servidor SQL Server se conecta por nombre de instanci
 #### Cómo llenar el formulario
 
 1. En `Modo de conexión`, seleccione `Instancia`.
-2. En `Instancia`, escriba el valor con formato `Servidor\Instancia`.
-3. Capture el `Usuario`.
-4. Capture la `Contraseña`.
-5. Capture el `Nombre de la base de datos`.
-6. Compruebe la conexión.
+2. Revise el campo `Instancia`. Si `Wincaja.ini` está disponible, este valor puede cargarse automáticamente.
+3. Revise el `Usuario`.
+4. Revise la `Contraseña`.
+5. Revise el `Nombre de la base de datos`.
+6. Ajuste cualquier dato solo si es necesario.
+7. Compruebe la conexión.
 
 Ejemplos:
 
@@ -354,7 +364,7 @@ Ejemplos:
 - `localhost\SQLEXPRESS`
 
 <p align="center">
-  <img src="./images/client-instancia-formulario.png" width="520" alt="Ejemplo del formulario de conexión por instancia">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781157092/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-db-config-form.png?v=2" width="520" alt="Ejemplo del formulario de conexión por instancia">
 </p>
 
 ### Cómo identificar la instancia de SQL Server
@@ -396,10 +406,11 @@ Use esta opción cuando conoce la dirección del servidor y el puerto TCP de SQL
 1. En `Modo de conexión`, seleccione `Host + Puerto`.
 2. En `Host`, escriba el nombre del servidor o la dirección IP.
 3. En `Puerto`, capture el puerto de SQL Server.
-4. Capture el `Usuario`.
-5. Capture la `Contraseña`.
-6. Capture el `Nombre de la base de datos`.
-7. Compruebe la conexión.
+4. Revise el `Usuario`.
+5. Revise la `Contraseña`.
+6. Revise el `Nombre de la base de datos`.
+7. Ajuste cualquier dato solo si es necesario.
+8. Compruebe la conexión.
 
 Ejemplos de host:
 
@@ -417,13 +428,10 @@ Se recomienda usar esta opción cuando:
 - SQL Server usa conexiones TCP/IP.
 - El área técnica le proporcionó host y puerto.
 
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156523/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-db-config-form.png" width="520" alt="Ejemplo del formulario de conexión por host y puerto">
-</p>
-
 ### Recomendaciones
 
 - Verifique que el nombre de la base de datos esté escrito exactamente como existe en SQL Server.
+- Cuando `Wincaja.ini` esté disponible, use como referencia los datos cargados automáticamente por la aplicación.
 - Si usa `Host + Puerto`, confirme que SQL Server tenga habilitado `TCP/IP`.
 - Si la conexión falla, revise usuario, contraseña, host, instancia, puerto y permisos de red.
 - Cuando sea posible, use un usuario dedicado para esta aplicación **(recomendado)**.
@@ -433,7 +441,7 @@ Se recomienda usar esta opción cuando:
 Una vez que la aplicación esté abierta y conectada, podrá generar la liga de acceso para el Verificador de Precios.
 
 <p align="center">
-  <img src="./images/emparejar-asistente-red-lan.png" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543013/assets/proyecto-verificador-precios/bridge-libp2p/images/emparejar-asistente-red-lan.png?v=2" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
 </p>
 
 ### Paso 1: Verificar la URL para conexión del servidor
@@ -441,7 +449,7 @@ Una vez que la aplicación esté abierta y conectada, podrá generar la liga de 
 Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156524/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-server-connection-url.png" width="520" alt="Ejemplo de la URL para conexión del servidor mostrada en la aplicación">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156524/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-server-connection-url.png?v=2" width="520" alt="Ejemplo de la URL para conexión del servidor mostrada en la aplicación">
 </p>
 
 ### Paso 2: Abrir el Asistente de URL de acceso
@@ -451,7 +459,7 @@ Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
 3. Se abrirá una ventana para capturar la `URL del Verificador de Precios`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156527/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-url-assistant-content.png" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156527/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-url-assistant-content.png?v=2" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
 </p>
 
 ### Paso 3: Capturar correctamente la URL del Verificador de Precios
@@ -472,7 +480,7 @@ Ejemplo:
 6. Mediante la URL generada ya podrá acceder al **software Verificador de Precios emparejado a su punto de venta**.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156523/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-access-assistant.png" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156523/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-access-assistant.png?v=2" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
 ### Paso 5: Permitir el acceso a la red local en el navegador
@@ -481,7 +489,7 @@ Para una mejor compatibilidad, se recomienda usar el sitio web de `Verificador d
 Si abre el sitio web de `Verificador de Precios` en `Google Chrome`, es posible que el navegador solicite permiso para acceder a la `red local`. Acepte este permiso para que el sitio web pueda comunicarse correctamente con la `URL para conexión del servidor`.
 
 <p align="center">
-  <img src="./images/chrome-local-network-access-permission.png" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543092/assets/proyecto-verificador-precios/bridge-libp2p/images/chrome-local-network-access-permission.png?v=2" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
 </p>
 
 Referencia:
@@ -509,7 +517,7 @@ También puede emparejar Verificador de Precios usando el `QR de conexión` que 
 3. Elija una de las opciones disponibles para leer el QR.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780456920/assets/proyecto-verificador-precios/screenshots/direct-pos-database/wincaja-verificador-precios-prueba-com-mx-config-data-source-bea35349ff.jpg" width="720" alt="Opciones de conexión rápida por QR en Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780456920/assets/proyecto-verificador-precios/screenshots/direct-pos-database/wincaja-verificador-precios-prueba-com-mx-config-data-source-bea35349ff.jpg?v=2" width="720" alt="Opciones de conexión rápida por QR en Verificador de Precios">
 </p>
 
 ### Paso 4: Emparejar usando el QR
@@ -530,10 +538,10 @@ Puede usar cualquiera de estas opciones:
 3. Si el QR se importó o se escaneó correctamente, la conexión se establecerá de manera automática.
 4. Espere la confirmación de emparejamiento.
 
-Si el sitio web no completa la conexión en `Google Chrome`, revise si el navegador mostró el permiso de acceso a la `red local` y acéptelo. Consulte también el [Paso 5: Permitir el acceso a la red local en Google Chrome](#paso-5-permitir-el-acceso-a-la-red-local-en-google-chrome).
+Si el sitio web no completa la conexión en `Google Chrome`, revise si el navegador mostró el permiso de acceso a la `red local` y acéptelo. Consulte también el [Paso 5: Permitir el acceso a la red local en el navegador](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780456920/assets/proyecto-verificador-precios/screenshots/direct-pos-database/wincaja-verificador-precios-prueba-com-mx-config-data-source-19cf1e38e5.jpg" width="720" alt="Ejemplo de Verificador de Precios con la conexión establecida correctamente">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780456920/assets/proyecto-verificador-precios/screenshots/direct-pos-database/wincaja-verificador-precios-prueba-com-mx-config-data-source-19cf1e38e5.jpg?v=2" width="720" alt="Ejemplo de Verificador de Precios con la conexión establecida correctamente">
 </p>
 
 ### Recomendaciones
@@ -549,6 +557,7 @@ Si la aplicación no funciona como esperaba, revise estos casos comunes:
 ### La aplicación no conecta a la Base de Datos
 
 - Verifique que el `Usuario`, la `Contraseña` y el `Nombre de la base de datos` sean correctos.
+- Si `Wincaja.ini` está disponible, confirme que los datos cargados automáticamente correspondan a la instalación correcta.
 - Revise que la Base de Datos a la que se está conectando sea la del punto de venta `Wincaja®`.
 - Si usa `Instancia`, confirme que el nombre esté escrito con el formato correcto `Servidor\Instancia`.
 - Si usa `Host + Puerto`, confirme que el `Host` y el `Puerto` sean correctos.
@@ -615,6 +624,6 @@ La aplicación es compatible con las siguientes versiones de Microsoft SQL Serve
 | SQL Server 2012 (11.x) | No soportado |
 | SQL Server 2008 R2 o anteriores | No soportado | -->
 
-## Disclamer
+## Disclaimer
 
 - Wincaja® y todos sus logotipos son marcas registradas de **wincaja.mx**
