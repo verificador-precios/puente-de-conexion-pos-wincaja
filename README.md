@@ -24,7 +24,7 @@ Si solo necesita una vista rápida del proceso, siga estos pasos:
 5. Verifique que la aplicación ya muestre la `URL para conexión del servidor`.
 6. Abra el [Asistente de URL de acceso](#paso-2-abrir-el-asistente-de-url-de-acceso) o use el [QR de conexión](#emparejar-con-el-software-verificador-de-precios-usando-el-qr) para [emparejar Verificador de Precios](#emparejar-con-el-software-verificador-de-precios-usando-el-asistente).
 7. [Acepte el permiso de acceso a la red local](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
-8. Confirme que `Verificador de Precios` complete la conexión correctamente.
+8. Confirme que el `Verificador de Precios` complete la conexión correctamente.
 
 Puede consultar el detalle completo en estas secciones:
 
