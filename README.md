@@ -2,14 +2,17 @@
 
 <div class="grid" markdown>
 
-![Logo del proyecto Puente de conexión POS](https://res.cloudinary.com/xadani-mexico/image/upload/v1784063241/assets/proyecto-verificador-precios/bridge-libp2p/images/icon.svg){ width="85" }
-{ .card }
+<p align="center">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063241/assets/proyecto-verificador-precios/bridge-libp2p/images/icon.svg" alt="Logo del proyecto Puente de conexión POS" style="height: 85px;" />
+</p>
 
-![Símbolo más](https://res.cloudinary.com/xadani-mexico/image/upload/v1784063599/assets/proyecto-verificador-precios/bridge-libp2p/images/plus-icon.svg){ width="35" }
-{ .card }
+<p align="center">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063599/assets/proyecto-verificador-precios/bridge-libp2p/images/plus-icon.svg" alt="Símbolo más" style="height: 35px;" />
+</p>
 
-![Logo de Wincaja](https://res.cloudinary.com/xadani-mexico/image/upload/v1777526589/assets/proyecto-verificador-precios/wincaja/wincaja-logo-png.png){ width="85" }
-{ .card }
+<p align="center">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1777526589/assets/proyecto-verificador-precios/wincaja/wincaja-logo-png.png" alt="Logo de Wincaja" style="height: 85px;" />
+</p>
 
 </div>
 
