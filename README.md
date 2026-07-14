@@ -1,12 +1,18 @@
 # Wincaja puente de conexión POS
 
-<p>
-  <span style="display: inline-flex; align-items: center; gap: 12px;">
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1777526589/assets/proyecto-verificador-precios/wincaja/wincaja-logo-png.png" height="99" alt="Logo de Wincaja">
-    <span aria-hidden="true" style="font-size: 32px; line-height: 1; font-weight: 500; margin-left: 1rem; margin-right: 1rem;">+</span>
-    <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063241/assets/proyecto-verificador-precios/bridge-libp2p/images/icon.svg" height="99" alt="Logo del proyecto Puente de conexión POS">
-  </span>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" valign="middle">
+      <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1777526589/assets/proyecto-verificador-precios/wincaja/wincaja-logo-png.png" height="85" alt="Logo de Wincaja">
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063599/assets/proyecto-verificador-precios/bridge-libp2p/images/plus-icon.svg" height="35" alt="Símbolo más">
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063241/assets/proyecto-verificador-precios/bridge-libp2p/images/icon.svg" height="85" alt="Logo del proyecto Puente de conexión POS">
+    </td>
+  </tr>
+</table>
 
 
 ## Introducción
