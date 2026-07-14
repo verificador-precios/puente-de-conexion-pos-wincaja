@@ -1,7 +1,11 @@
 # Wincaja puente de conexión POS
 
-<p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783542709/assets/proyecto-verificador-precios/bridge-libp2p/images/arquitectura-instalacion-red-lan.png?v=2" width="500" alt="Ejemplo de una red LAN con un punto de venta Wincaja y varios Verificadores de Precios conectados">
+<p>
+  <span style="display: inline-flex; align-items: center; gap: 12px;">
+    <img src="../../assets/providers/wincaja/logo.webp" height="99" alt="Logo de Wincaja">
+    <span aria-hidden="true" style="font-size: 32px; line-height: 1; font-weight: 500; margin-left: 1rem; margin-right: 1rem;">+</span>
+    <img src="../../assets/icons/icon.svg" height="99" alt="Logo del proyecto Puente de conexión POS">
+  </span>
 </p>
 
 
@@ -275,6 +279,8 @@ Al abrir la aplicación por primera vez, se intentará cargar automáticamente l
 
 Si el archivo `Wincaja.ini` está disponible, la aplicación usará esos datos para completar la configuración de conexión a la base de datos.
 
+Al iniciar, la aplicación intentará cargar automáticamente la contraseña desde la configuración de `Wincaja®`.
+
 Si por alguna razón no es posible obtener los valores desde `Wincaja.ini`, podrá capturarlos manualmente.
 
 La aplicación permite configurar:
@@ -339,7 +345,28 @@ En esta sección puede activar herramientas adicionales de apoyo.
 
 La aplicación está preparada para conectarse a la Base de Datos de `Wincaja®`.
 
-Cuando el archivo `C:\WinCajaV10\Wincaja.ini` está disponible, la aplicación obtiene automáticamente desde ahí los valores de conexión, como la `Instancia`, el `Nombre de la base de datos`, el `Usuario` y la `Contraseña`.
+### Cómo se obtienen los valores de conexión
+
+La aplicación intenta obtener los datos de conexión desde el archivo `C:\WinCajaV10\Wincaja.ini`.
+
+Ruta predeterminada de instalación:
+
+- `C:\WinCajaV10`
+
+Archivo usado:
+
+- `Wincaja.ini`
+
+Campos que la aplicación intenta leer desde `Wincaja.ini`:
+
+- `SERVIDOR`: instancia de SQL Server
+- `NOMBRE DE BD`: nombre de la base de datos
+- `USUARIO`: usuario
+- `USUARIO PWD`: contraseña
+
+La aplicación cargará automáticamente esos valores en el formulario de conexión para intentar comunicarse con el punto de venta.
+
+En el caso de la `Contraseña`, la aplicación intentará cargarla automáticamente desde el valor `USUARIO PWD` de `Wincaja.ini`.
 
 Si necesita ajustar la conexión o si el archivo `Wincaja.ini` no está disponible, puede capturar los datos manualmente.
 
@@ -347,14 +374,22 @@ Si necesita ajustar la conexión o si el archivo `Wincaja.ini` no está disponib
 
 Use esta opción cuando su servidor SQL Server se conecta por nombre de instancia.
 
-#### Cómo llenar el formulario
+Si la aplicación no puede leer `Wincaja.ini`, usará estos valores predeterminados:
+
+- `Instancia`: vacío
+- `Usuario`: vacío
+- `Contraseña`: `wincaja`
+- `Nombre de la base de datos`: `wincaja`
+- `Carpeta de instalación`: `C:\WinCajaV10`
+
+#### Cómo revisar el formulario
 
 1. En `Modo de conexión`, seleccione `Instancia`.
-2. Revise el campo `Instancia`. Si `Wincaja.ini` está disponible, este valor puede cargarse automáticamente.
-3. Revise el `Usuario`.
-4. Revise la `Contraseña`.
-5. Revise el `Nombre de la base de datos`.
-6. Ajuste cualquier dato solo si es necesario.
+2. Verifique que la aplicación haya cargado la `Instancia`.
+3. Verifique el `Usuario`.
+4. Verifique la `Contraseña`.
+5. Verifique el `Nombre de la base de datos`.
+6. Si algún dato no es correcto, ajústelo manualmente.
 7. Compruebe la conexión.
 
 Ejemplos:
@@ -401,15 +436,15 @@ Si no conoce la configuración actual, solicite estos datos al área técnica:
 
 Use esta opción cuando conoce la dirección del servidor y el puerto TCP de SQL Server.
 
-#### Cómo llenar el formulario
+#### Cómo revisar el formulario
 
 1. En `Modo de conexión`, seleccione `Host + Puerto`.
-2. En `Host`, escriba el nombre del servidor o la dirección IP.
-3. En `Puerto`, capture el puerto de SQL Server.
-4. Revise el `Usuario`.
-5. Revise la `Contraseña`.
-6. Revise el `Nombre de la base de datos`.
-7. Ajuste cualquier dato solo si es necesario.
+2. Verifique el `Host`.
+3. Verifique el `Puerto`.
+4. Verifique el `Usuario`.
+5. Verifique la `Contraseña`.
+6. Verifique el `Nombre de la base de datos`.
+7. Si algún dato no es correcto, ajústelo manualmente.
 8. Compruebe la conexión.
 
 Ejemplos de host:
@@ -432,6 +467,7 @@ Se recomienda usar esta opción cuando:
 
 - Verifique que el nombre de la base de datos esté escrito exactamente como existe en SQL Server.
 - Cuando `Wincaja.ini` esté disponible, use como referencia los datos cargados automáticamente por la aplicación.
+- La `Contraseña` puede cargarse automáticamente desde el valor `USUARIO PWD` de `Wincaja.ini`.
 - Si usa `Host + Puerto`, confirme que SQL Server tenga habilitado `TCP/IP`.
 - Si la conexión falla, revise usuario, contraseña, host, instancia, puerto y permisos de red.
 - Cuando sea posible, use un usuario dedicado para esta aplicación **(recomendado)**.
@@ -558,6 +594,7 @@ Si la aplicación no funciona como esperaba, revise estos casos comunes:
 
 - Verifique que el `Usuario`, la `Contraseña` y el `Nombre de la base de datos` sean correctos.
 - Si `Wincaja.ini` está disponible, confirme que los datos cargados automáticamente correspondan a la instalación correcta.
+- Confirme si la aplicación logró cargar automáticamente la contraseña desde el valor `USUARIO PWD` de `Wincaja.ini`.
 - Revise que la Base de Datos a la que se está conectando sea la del punto de venta `Wincaja®`.
 - Si usa `Instancia`, confirme que el nombre esté escrito con el formato correcto `Servidor\Instancia`.
 - Si usa `Host + Puerto`, confirme que el `Host` y el `Puerto` sean correctos.
