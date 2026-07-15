@@ -5,7 +5,7 @@
   &nbsp;&nbsp;&nbsp;
   <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1784063599/assets/proyecto-verificador-precios/bridge-libp2p/images/plus-icon.svg" alt="Símbolo más" height="32" align="middle" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1777526589/assets/proyecto-verificador-precios/wincaja/wincaja-logo-png.png" alt="Logo de Wincaja" height="100" align="middle" />
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/b_white/v1777526589/assets/proyecto-verificador-precios/wincaja/wincaja-logo-png.png" alt="Logo de Wincaja" height="100" align="middle" />
 </p>
 
 ## Introducción
