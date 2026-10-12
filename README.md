@@ -13,7 +13,7 @@
 `Wincaja puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `Wincaja®`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156526/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home.png?v=2" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1791763748/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-arquitectura-de-uso-en-tienda.png?v=2" width="720" alt="Vista general del panel principal de Wincaja puente de conexión POS">
 </p>
 
 ## Guía rápida de configuración
